@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="author" lang="cs" content="David Kohout; http://www.davidkohout.cz" />
+    <meta name="copyright" lang="cs" content="David Kohout; http://www.davidkohout.cz" />
+    <meta name="description" content="..." />
+    <meta name="keywords" content="..." />
+    <meta name="robots" content="all,follow" />
+    <link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <title>Matthew McKay</title>
+  </head>
+  <body>
+
+    <div id="layout">
+      
+        <div id="header">
+
+        <h1 id="logo"><a href="index.html" title="Home"><span>Matthew</span> McKay</a></h1>
+        <hr class="noscreen" />   
+           
+        <div id="navigation">
+        <ul>
+          <li id="first"><a href="resume.html" title="">Resume</a></li>
+          <li><a href="projects.html" title="">Projects</a></li>
+          <li><a href="contact.html" title="">Contact</a></li>
+        </ul>
+        </div>
+        
+        <hr class="noscreen" />  
+
+        </div>
+        
+        <div id="main">
+        
+        <div id="main-box">
+        <div id="quote">Page Not Found</div>
+        </div>
+        
+        <div id="content">
+        <p>
+        The page you requested does not exist.
+        </p>
+        </div>
+        
+        
+        
+        <div id="footer">
+
+        <p id="copyright">&copy; 2012 - <a href="/">Matthew McKay</a></p>
+        <p id="dont-delete-this">Design by <a href="http://www.davidkohout.cz">David Kohout
+
+        </div>
+        
+        </div>
+        </div>
+        
+  </body>
+</html>
