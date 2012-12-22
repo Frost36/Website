@@ -42,8 +42,24 @@
         <div id="content">
         <h2></h2>
         <p>
-            This page is still under construction. Check back later once 
+            This page is a work in progress. Check back later once 
             I've uploaded some more of my projects.
+        </p>
+        </div>
+		
+		<div id="content">
+        <h2>C0 Compiler</h2>
+        <p>
+            In my Compiler Design course (15-411), I wrote a full compiler for
+			the language <a href="http://c0.typesafety.net/">C0</a> with a 
+			partner. The compiler takes C0 programs and compiles them into 
+			x86-64 assembly, which is linked to a runtime system. The runtime 
+			also has a mark-and-copy garbage collector that is integrated into 
+			the code if used. It also has an implementation of our semantics 
+			for having <b>free</b> in C0 (while still being defined in all 
+			cases). I primarily worked on the parser, elaboration, typechecking, 
+			and translation (as well as parts of the garbage collector). We 
+			plan to continue development on it in our spare time.
         </p>
         </div>
 
