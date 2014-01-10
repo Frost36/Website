@@ -38,15 +38,37 @@
         <div id="main-box">
         <div id="quote">Projects</div>
         </div>
-
-        <div id="content">
-        <h2></h2>
+		
+		<div id="content">
+        <h2>Senior Thesis Research</h2>
         <p>
-            This page is a work in progress. Check back later once 
-            I've uploaded some more of my projects.
+            In my senior year I'm working on a correctness-checking compiler, 
+            which works by having a language that is shared between multiple 
+            phases of the compiler. That way, the compiled code and the source 
+            code can be meaningfully compared, allowing for the correctness to 
+            be verified. Right now I'm working on developing the specifics of 
+            the shared language, as well as proving the necessary theorems 
+            about it to do the verification.
         </p>
         </div>
-		
+        
+		<div id="content">
+        <h2>Independent Study Research</h2>
+        <p>
+            In my junior year I did an independent study where I implemented a 
+            static verification checker for the language 
+            <a href="http://c0.typesafety.net/">C0</a>. I used the 
+            <a href="http://z3.codeplex.com/">Z3</a> theorem prover to actually 
+            perform the analysis of checking certain conditions given certain 
+            facts. The tool I created checks for many errors, including array 
+            index-out-of-bounds accesses, null pointer dereferences, arithmetic 
+            errors (like division by zero). It does this by making use of the 
+            languages contracts, which are statements that make guarantees 
+            about variables while inside loops and when entering or leaving a 
+            function.
+        </p>
+        </div>
+        
 		<div id="content">
         <h2>C0 Compiler</h2>
         <p>
